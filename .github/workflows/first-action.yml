@@ -5,8 +5,12 @@ jobs:
     runs-on: ubuntu-latest 
     steps: 
       - name: Print Greeting 
-        run: echo "Hello world"        
+        run: !
+          echo "Hello world"  
+          echo "This is my second line" 
       - name: Print goodbye 
-        run : echo "print Hihi Byebye!" 
+        run : | #Pipe allow u to go command by command  
+          echo "print Hihi Byebye!" 
+          echo "Hey baby second line
         
         
