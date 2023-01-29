@@ -11,6 +11,6 @@ jobs:
       - name: Print goodbye 
         run : | #Pipe allow u to go command by command  
           echo "print Hihi Byebye!" 
-          echo "Hey baby second line
+          echo "Hey baby second line"
         
         
